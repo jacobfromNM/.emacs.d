@@ -6,7 +6,7 @@
 (global-linum-mode 1) ; always show line numbers
 (setq linum-format "%3d ") ; add a space after the numbers in the left margin
 
-;;;;; SHOW GUIDE LINES
+; SHOW GUIDE LINES
 (add-to-list 'load-path "~/.emacs.d/highlight-indent-guides/")
 (require 'highlight-indent-guides)
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
